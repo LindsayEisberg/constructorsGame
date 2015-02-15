@@ -1,0 +1,114 @@
+//stance
+@include keyframes (play) {
+   from { background-position: 0px; }
+     to { background-position: 1188px; }
+}
+//stance2
+@include keyframes (play2) {
+   from { background-position: 0px; }
+     to { background-position: 693px; }
+}
+//victory
+@include keyframes (play3) {
+   from { background-position: 0px; }
+     to { background-position: 396px; }
+}
+//walk
+@include keyframes (play4) {
+   from { background-position: 0px; }
+     to { background-position: 891px; }
+}
+//duck
+@include keyframes ( play5 ) {
+   from { background-position: 0px; }
+     to { background-position: 297px;}
+}
+//jump
+@include keyframes ( play6 ) {
+   from { background-position: 0px; }
+     to { background-position: 297px; }
+}
+
+//punch
+@include keyframes (play8) {
+   from { background-position: 0px; }
+     to { background-position: 1152px; }
+}
+//kick
+@include keyframes (play9) {
+   from { background-position: 0px; }
+     to { background-position: 903px; }
+}
+
+//being hit
+@include keyframes (play11) {
+   from { background-position: 0px; }
+     to { background-position: 297px; }
+}
+
+//dizzy
+@include keyframes (play13) {
+   from { background-position: 0px; }
+     to { background-position: 693px; }
+}
+//finished
+@include keyframes (play14) {
+   from { background-position: 0px; }
+     to { background-position: 786px; }
+}
+
+//////////////////////////////////////
+////////////SCORPIAN/////////////////
+////////////////////////////////////
+
+//scorp stance
+@include keyframes (scorpPlay) {
+   from { background-position: 630px; }
+     to { background-position: 0px; }
+}
+
+//finished
+@include keyframes (scorpFinished) {
+   from { background-position: 720px; }
+     to { background-position: 0px; }
+}
+
+//scorp dizzy
+@include keyframes (scorpDizzy) {
+   from { background-position: 643px; }
+     to { background-position: 0px; }
+}
+
+//scorp get hit
+@include keyframes (scorpGetHit) {
+   from { background-position: 269px; }
+     to { background-position: 0px; }
+}
+
+//scorp Kick
+
+@include keyframes (scorpKick) {
+   from { background-position: 1068px; }
+     to { background-position: 0px; }
+}
+
+//scorp punch
+
+@include keyframes (scorpPunch) {
+   from { background-position: 1188px; }
+     to { background-position: 0px; }
+}
+
+//scorp walk
+
+@include keyframes (scorpWalk) {
+   from { background-position: 0px; }
+     to { background-position: 1033px; }
+}
+
+//scorp victory
+
+@include keyframes (scorpVictory) {
+   from { background-position: 0px; }
+     to { background-position: 285px; }
+}

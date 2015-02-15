@@ -1,0 +1,163 @@
+.subZeroStance {
+    width: 99px;
+    height: $player-height;
+    background-image: url("../mKSprites/subZeroStance.png");
+    transition: all 2s ease;
+    @include play (play .6s steps(12) infinite);
+    /* .subZeroStance:hover {
+        transform: translateX(500px);
+    } */
+}
+
+//SUB ZERO ALT STANCE//
+
+.subZeroAltStance {
+    @extend .subZeroStance;
+    background-image: url("../mKSprites/subZeroAltStance.png");
+    @include play (play2 .6s steps(7) infinite);
+}
+
+//subZeroVictory
+
+.subZeroVictory {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroVictory.png");
+  @include play (play3 1s steps(4) infinite);
+
+}
+//SUB ZERO WALK
+
+.subZeroWalk {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroWalk.png");
+  @include play (play4 .8s steps(9) infinite);
+}
+
+//sub zero duck
+.subZeroDuck {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play5 .7s steps(3) infinite);
+
+}
+
+//sub zero jump
+.subZeroJump {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play6 .7s steps(3) infinite);
+
+}
+
+//sub zero punch
+.subZeroPunch {
+  @extend .subZeroStance;
+  width: 129px;
+  height: $player-height;
+  background-image: url("../mKSprites/subZeroPunch.png");
+  @include play (play8 1.1s steps(9) infinite);
+
+}
+//sub zero kick
+.subZeroKick {
+  @extend .subZeroStance;
+  width: 129px;
+  height: $player-height;
+  background-image: url("../mKSprites/subZeroKick.png");
+  @include play (play9 .8s steps(7) infinite);
+}
+
+//sub zero take hit
+.subZeroGetHit {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroTakeHit.png");
+  @include play (play11 .4s steps(3) infinite);
+
+}
+
+//sub zero dizzy
+.subZeroDizzy {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDizzy.png");
+  @include play (play13 .6s steps(7) infinite);
+
+}
+//sub zero finished
+.subZeroFinished {
+  @extend .subZeroStance;
+  width: 159px;
+  height: $player-height;
+  background-image: url("../mKSprites/subZeroDead.png");
+  @include play (play14 .7s steps(5) infinite);
+
+}
+
+//scorp stance
+
+.scorpStance {
+    width: 94px;
+    height: $player-height;
+    background-image: url("../mKSprites/scorpStance.png");
+    transition: all 2s ease;
+    @include play (scorpPlay .6s steps(7) infinite);
+}
+
+//scorpFinished
+.scorpFinished {
+  @extend .scorpStance;
+  width: 145px;
+  height: 169px;
+  background-image: url("../mKSprites/scorpFinished.png");
+  @include play (scorpFinished 3s steps(5));
+  background-position: 0px;
+
+}
+
+.scorpDizzy {
+  width: 89px;
+  height: $player-height;
+  transition: all 2s ease;
+  background-image: url("../mKSprites/scorpDizzy.png");
+  @include play (scorpDizzy .7s steps(7) infinite);
+
+}
+
+.scorpGetHit {
+  width: 90px;
+  height: $player-height;
+  transition: all 2s ease;
+  background-image: url("../mKSprites/scorpGetHit.png");
+  @include play(scorpGetHit .4s steps(3) infinite);
+}
+
+.scorpKick {
+  width: 153px;
+  height: $player-height;
+  transition: all 2s ease;
+  background-image: url("../mKSprites/scorpKick.png");
+  @include play(scorpKick .8s steps(7) infinite);
+}
+
+.scorpPunch {
+  width: 132px;
+  height: $player-height;
+  transition: all 2s ease;
+  background-image: url("../mKSprites/scorpPunch.png");
+  @include play(scorpPunch .8s steps(9) infinite);
+}
+
+.scorpWalk {
+  width: 94px;
+  height: $player-height;
+  transition: all 2s ease;
+  background-image: url("../mKSprites/scorpWalk.png");
+  @include play(scorpWalk 1s steps(11) infinite);
+}
+
+.scorpVictory {
+  width: 71px;
+  height: $player-height;
+  transition: all 2s ease;
+  background-image: url("../mKSprites/scorpVictory.png");
+  @include play(scorpVictory 1s steps(4) infinite);
+}

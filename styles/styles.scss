@@ -1,0 +1,16 @@
+body {
+  background-image: url('../theTemple.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.playField {
+  max-width: 1000px;
+  width: 300px;
+  margin: auto;
+}
+.subZero, .scorpion {
+  vertical-align: top;
+  display: inline-block;
+}
