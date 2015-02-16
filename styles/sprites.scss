@@ -4,6 +4,7 @@
     background-image: url("../mKSprites/subZeroStance.png");
     transition: all 2s ease;
     @include play (play .6s steps(12) infinite);
+    display: none;
     /* .subZeroStance:hover {
         transform: translateX(500px);
     } */
@@ -100,6 +101,7 @@
     background-image: url("../mKSprites/scorpStance.png");
     transition: all 2s ease;
     @include play (scorpPlay .6s steps(7) infinite);
+    display: none;
 }
 
 //scorpFinished

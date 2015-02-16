@@ -1,17 +1,3 @@
-body {
-  background-image: url('../theTemple.png');
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.playField {
-  max-width: 1000px;
-  width: 300px;
-  margin: auto; }
-
-.subZero, .scorpion {
-  vertical-align: top;
-  display: inline-block; }
-
 .subZeroStance, .subZeroAltStance, .subZeroVictory, .subZeroWalk, .subZeroDuck, .subZeroJump, .subZeroPunch, .subZeroKick, .subZeroGetHit, .subZeroDizzy, .subZeroFinished {
   width: 99px;
   height: 154px;
@@ -21,6 +7,7 @@ body {
   animation: play .6s steps(12) infinite;
   -moz-animation: play .6s steps(12) infinite;
   -o-animation: play .6s steps(12) infinite;
+  display: none;
   /* .subZeroStance:hover {
         transform: translateX(500px);
     } */ }
@@ -109,7 +96,8 @@ body {
   -webkit-animation: scorpPlay .6s steps(7) infinite;
   animation: scorpPlay .6s steps(7) infinite;
   -moz-animation: scorpPlay .6s steps(7) infinite;
-  -o-animation: scorpPlay .6s steps(7) infinite; }
+  -o-animation: scorpPlay .6s steps(7) infinite;
+  display: none; }
 
 .scorpFinished {
   width: 145px;
@@ -180,6 +168,23 @@ body {
   animation: scorpVictory 1s steps(4) infinite;
   -moz-animation: scorpVictory 1s steps(4) infinite;
   -o-animation: scorpVictory 1s steps(4) infinite; }
+
+body {
+  background-image: url('../theTemple.png');
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.playField {
+  max-width: 1000px;
+  width: 300px;
+  margin: 40% auto 0 auto; }
+
+.subZero, .scorpion {
+  vertical-align: top;
+  display: inline-block; }
+
+.active {
+  display: inline-block; }
 
 @-webkit-keyframes play {
   from {
